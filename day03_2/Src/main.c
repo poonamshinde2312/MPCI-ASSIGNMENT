@@ -14,6 +14,7 @@
  * If no LICENSE file comes with this software, it is provided AS-IS.
  *
  ******************************************************************************
+ 2. Rewrite LED functions using BSRR register (instead of ODR register). On all LEDs for 500 ms and then Off all LEDs for 500 ms repeatedly.
  */
 
 #include <stdint.h>
